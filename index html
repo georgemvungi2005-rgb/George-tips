@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GEORGE TIPS</title>
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#0b1220;
+color:white;
+}
+header{
+background:#111c33;
+padding:20px;
+text-align:center;
+}
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#35e07f;
+}
+.hero{
+padding:60px 20px;
+text-align:center;
+background:#122b32;
+}
+.hero h1{
+font-size:42px;
+margin:10px;
+}
+.hero p{
+color:#c0c8d5;
+}
+.btn{
+display:inline-block;
+background:#35e07f;
+color:#07120c;
+padding:14px 22px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+section{
+padding:35px 20px;
+max-width:1000px;
+margin:auto;
+}
+.title{
+font-size:26px;
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+.card{
+background:#121d31;
+border:1px solid #26334b;
+border-radius:12px;
+padding:20px;
+}
+.badge{
+display:inline-block;
+background:#1c8d54;
+padding:6px 10px;
+border-radius:20px;
+font-size:12px;
+}
+.premium{
+border-color:#e6b84d;
+}
+.premium .badge{
+background:#b88718;
+}
+.tip{
+display:flex;
+justify-content:space-between;
+padding:12px 0;
+border-bottom:1px solid #27344b;
+}
+.price{
+font-size:22px;
+font-weight:bold;
+color:#ffd45a;
+}
+footer{
+text-align:center;
+padding:30px;
+background:#070d18;
+color:#9aa5b5;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">GEORGE TIPS</div>
+</header>
+
+<div class="hero">
+<p>⚽ FOOTBALL PREDICTIONS</p>
+<h1>GEORGE TIPS</h1>
+<p>Karibu kwenye platform ya football predictions na match analysis.</p>
+<a class="btn" href="#free">ANGALIA TIPS</a>
+</div>
+
+<section id="free">
+
+<h2 class="title">🔮 Free Tips za Leo</h2>
+
+<div class="grid">
+
+<div class="card">
+<span class="badge">FREE</span>
+<h3>Arsenal vs Chelsea</h3>
+<div class="tip">
+<span>Prediction</span>
+<b>Over 1.5</b>
+</div>
+<div class="tip">
+<span>Confidence</span>
+<b>78%</b>
+</div>
+</div>
+
+<div class="card">
+<span class="badge">FREE</span>
+<h3>Barcelona vs Sevilla</h3>
+<div class="tip">
+<span>Prediction</span>
+<b>Barcelona Win</b>
+</div>
+<div class="tip">
+<span>Confidence</span>
+<b>74%</b>
+</div>
+</div>
+
+<div class="card">
+<span class="badge">FREE</span>
+<h3>Inter vs Napoli</h3>
+<div class="tip">
+<span>Prediction</span>
+<b>Under 3.5</b>
+</div>
+<div class="tip">
+<span>Confidence</span>
+<b>71%</b>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="premium">
+
+<h2 class="title">👑 Premium Tips</h2>
+
+<div class="grid">
+
+<div class="card premium">
+<span class="badge">PREMIUM</span>
+<h3>VIP Daily Ticket</h3>
+<p>Selections zenye analysis ya kina.</p>
+<p class="price">TZS 5,000</p>
+<a class="btn" href="#">NUNUA PREMIUM</a>
+</div>
+
+<div class="card premium">
+<span class="badge">PREMIUM</span>
+<h3>VIP Weekend</h3>
+<p>Weekend selections + analysis.</p>
+<p class="price">TZS 10,000</p>
+<a class="btn" href="#">NUNUA PREMIUM</a>
+</div>
+
+</div>
+</section>
+
+<section>
+
+<h2 class="title">📊 Results</h2>
+
+<div class="card">
+
+<div class="tip">
+<span>George Tips — Yesterday</span>
+<b>8/10 Won</b>
+</div>
+
+<div class="tip">
+<span>Weekend VIP</span>
+<b>12/15 Won</b>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 GEORGE TIPS
+<br>
+Play responsibly. Predictions are not guaranteed.
+</footer>
+
+</body>
+</html>
